@@ -2,8 +2,10 @@
 
 #Accessing single item/element from list
 myList1 = [10,20,"vishal",30,'orange','banana',40]
+
 #list items can be access by using index, and index starts from zero.
 print("2nd item from list: ",myList1[2])
+
 #List can be access by using negative index, last item in the list is at index -1
 print("last item from list using negative index: ",myList1[-1])
 print("2nd last item from list using negative index: ",myList1[-2])
