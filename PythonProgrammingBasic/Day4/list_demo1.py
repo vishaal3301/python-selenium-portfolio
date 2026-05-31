@@ -9,7 +9,7 @@ my_list2 = ["apple","banana","cherry"]
 print("str list -> ",my_list2)
 
 #all kind of data type
-my_list3 = ["apple",10,"banana",20,45,"peach","oranges"]
+my_list3 = ["apple",10,"banana",20,45,"peach","oranges",0.25,'kiwi']
 print("all kinds of data type -> ",my_list3)
 
 #to declare a empty list
