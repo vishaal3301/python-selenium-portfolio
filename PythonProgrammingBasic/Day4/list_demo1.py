@@ -1,3 +1,7 @@
+#List:
+"""List is a collection which is ordered and changeable.
+In Python list are written with square brackets [ ].
+List is Mutable.  """
 # Creation of list
 
 #int list
