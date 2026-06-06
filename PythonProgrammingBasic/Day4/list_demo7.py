@@ -9,5 +9,5 @@ my_list_copy = list(my_list) # copied the element from my_list
 print("after elements are copied form my_list into my_list_copy: ",my_list_copy)
 
 #copy list using copy()
-myListCopy = my_list.copy();
+myListCopy = my_list.copy()
 print("myListCopy has copied element from my_list using copy(): ",myListCopy)
