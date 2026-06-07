@@ -2,9 +2,10 @@
 In Python sets are written with curly brackets { }. """
 
 #Creating the set
-mySet1 =  {"apple","banana","cherry"}
+mySet1 =  {"apple","banana","cherry",1,0.25,'v'}
 print("mySet1: ",mySet1)
 print("#"*1000)
+
 #Accessing items from the Set, using loop
 print("Original mySet1: ",mySet1)
 print("print using for loop:")

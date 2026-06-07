@@ -10,7 +10,7 @@ mySet2.add("orange")
 print("after adding orange to mySet2: ",mySet2)
 
 # update()
-mySet3 = {'apple','banana','cherry'}
+mySet3 = {'melon','navel orange','olive'}
 print("original mySet3: ",mySet3)
 mySet3.update(["mango","grapes","kiwi"])
 print("after update(), mySet3 : ",mySet3)
