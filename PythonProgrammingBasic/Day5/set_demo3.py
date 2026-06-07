@@ -36,7 +36,7 @@ print("*"*1000)
 print("cleaar(), will clear all Items from Set, but Set variable still present in memory ")
 mySet6 = {1,2,3,"apple","banana","cucumber"}
 print("Original mySet6:\t",mySet6)
-mySet6.clear();
+mySet6.clear()
 print("After clear(), mySet6, But the variable is available:\t",mySet6)
 
 print("*"*1000)
