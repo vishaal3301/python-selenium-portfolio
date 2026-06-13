@@ -10,7 +10,10 @@ class VariousMethods:
 
     @staticmethod
     def method2(text):
-        print(f"Method2 is static method, Notice an Annotation on the top of method2 {text}")
+        print(f"Method2 is static method, Notice an Annotation on the top of method {text}")
+    @staticmethod
+    def method3(self,num):
+        print(f"inside method3, which is also static method with self argument:{self} and num argument:{num}")
 
 obj1 = VariousMethods()
 
@@ -19,7 +22,10 @@ obj1.method2("in Python")
 """As here for demo, we are calling static method using an object,
 which do NOT make sense but for learning we are doing, Static methods must be invoked by using
 Respective Class Name.
-Also self keyword is static method is NOT mandatory, in Static method self keyword reference as an seprate 
+Also self keyword is static method is NOT mandatory, in Static method self keyword reference as an separate 
 argument.
-Where sa self keyword in NON-Static method reference to respective class."""
+Where as self keyword in NON-Static method reference to respective class and self keyword is mandatory in 
+NON-Static method."""
+obj1.method3("Vishal",786)
 
+VariousMethods.method2("method2()")
