@@ -9,8 +9,11 @@ class m2:
         print(f"a\t+\tb\t=\t{self.a+self.b}")
     def m2_multiply(self):
         print(f"a\t*\tb\t=\t{self.a*self.b}")
-
+    @staticmethod
+    def m2_subtraction():
+        print(f"a\t-\tb\t=\t{m2.a-m2.b}")
 obj_m2 = m2()
 obj_m2.m2_print()
 obj_m2.m2_addition()
 obj_m2.m2_multiply()
+obj_m2.m2_subtraction()
