@@ -1,3 +1,4 @@
+"""Parameterised Constructor """
 class ClassDemo10:
     name = "Vishaal" # Class variable
     def __init__(self,name): #constructor is expecting an argument.
