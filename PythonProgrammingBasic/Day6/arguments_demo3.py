@@ -1,6 +1,7 @@
 # Keyword Arguments:
 def greetings(name,greet_msg):
         print(f"{greet_msg}\t{name} ")
+        print(f"{name}\t{greet_msg} ")
 
 greetings("vishaal","Welcome")
 

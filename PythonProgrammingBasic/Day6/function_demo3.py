@@ -1,6 +1,6 @@
 
 def function_empty():
-    return
+    return #it will return None
 
 print(f"calling function_empty(): {function_empty()}")
 
