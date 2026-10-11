@@ -7,7 +7,7 @@ class ClassDemo12:
         self.emp_sal = emp_sal
 
     def __str__(self): # str representation method.
-        return self.emp_name
+        return f"Employee ID: {self.emp_id}, Employee Name: {self.emp_name}, Employee Salary: {self.emp_sal}"
 
 
 CD_12 = ClassDemo12(786,"Vishaal Khairnar",786000)
