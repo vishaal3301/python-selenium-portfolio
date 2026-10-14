@@ -29,3 +29,4 @@ NON-Static method."""
 obj1.method3("Vishal",786)
 
 VariousMethods.method2("method2()")
+VariousMethods.method3("method3()",786)
