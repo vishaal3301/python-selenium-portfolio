@@ -6,3 +6,4 @@ class MyClass:
         print(f"self.name: {self.name}")
 
 obj1 = MyClass("Vishaal Khairnar")
+# obj2 = MyClass(123)
