@@ -16,3 +16,4 @@ print(obj1)
 obj2 = EMP(3301,"Vishal",35,40000)
 print(obj2)
 
+print(EMP(777,"Vishaal",36,38000))
