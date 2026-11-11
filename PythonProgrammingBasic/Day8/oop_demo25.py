@@ -1,4 +1,4 @@
-# Acessing parent class variab;e
+# Acessing parent class variable
 
 class A:
     name = "Vishal"
