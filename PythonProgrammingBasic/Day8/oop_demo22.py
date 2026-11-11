@@ -8,7 +8,7 @@ class A:
 class B(A):
     def m1(self):
         print(f"Inside Class B")
-        super().m1()
+        super().m1() # super keyword is use to invoke the parent class method using child class.
 
 obj_B = B()
 obj_B.m1()
