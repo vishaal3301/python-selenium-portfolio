@@ -1,4 +1,4 @@
-#Accessing Parent class attributes
+#Accessing Parent class attributes/variable
 
 class A:
     a,b=100,200
