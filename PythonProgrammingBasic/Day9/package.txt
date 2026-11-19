@@ -1,0 +1,7 @@
+Packages:
+Package conatins collection of modules
+
+Package --> Modules --> functions and classes
+
+Note: java and python have different context of packages and modules.
+
