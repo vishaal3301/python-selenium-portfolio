@@ -1,4 +1,4 @@
-# Raising our own Exception
+# Raising our own Exception or User define exception
 def enter_Age(num):
     if num<0:
         raise ValueError("Only Positive Integer are allowed")
